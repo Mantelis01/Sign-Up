@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="odin-lined.png" alt="logo" width="20%" height="20%">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <form action="#">
+            <fieldset>
+                <legend>Sign-Up</legend>
+                <div>
+                    <label for="firstName">FIRST NAME:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Genitalijus" required>
+                    
+                    <label for="lastName">LAST NAME:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Gaidanavicius" required>
+                </div>
+                
+                <div>
+                    <label for="email">EMAIL:</label>
+                    <input type="email" name="email" id="email" placeholder="genitalijus.gaid@gmail.com" required>
+                    
+                    <label for="phone">PHONE NUMBER:</label>
+                    <input type="tel" name="phone" id="phone" placeholder='(+XXX) XXX XXX XX'required>
+                </div>
+
+                <div>
+                    <label for="password">PASSWORD:</label>
+                    <input type="password" name="password" id="password" minlength="5" maxlength="12" placeholder="5-12 characters" required>
+                    
+                    <label for="confirm-password">CONFIRM PASSWORD:</label>
+                    <input type="password" name="confirm-password" id="confirm-password" minlength="5" maxlength="12" placeholder="5-12 characters" required>
+                </div>
+
+                <input type="submit" value="Sign Up">
+
+            </fieldset>
+        </form>
+    </div>
+   
+</body>
+</html>
