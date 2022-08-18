@@ -1,24 +1,24 @@
-html{
-    background-color: #E9D5DA;
-    padding: 0;
+html, body{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 form{
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    float: right;
+    color: #aa4a82
 }
 
 fieldset{
     padding: 15px;
     margin: 10px;
-    border: 2px solid #827397;
+    border: 2px solid #7A0BC0;
     border-radius: 5px;
 }
 
@@ -27,18 +27,18 @@ input[type=text], input[type=password], input[type=email], input[type=tel]{
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #270082;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
   }
   
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus {
-    border: 3px solid #827397;
+    border: 3px solid #270082;
 }
 
 input[type=submit] {
-    background-color: #827397;
+    background-color: #270082;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -51,14 +51,22 @@ input[type=submit] {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #13132e;
+}
+
+.sidebar{
+    width: 80%;
+    height: 100%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.sidebar{
-    width: 20%;
-    height: 100%;
-    background-image: url(background.jpg);
-    float: left;
+a{
+    text-decoration: none;
+    color: #e07661;
 }
